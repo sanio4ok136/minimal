@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+    url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+    url('../fonts/montserrat-regular-webfont.ttf') format('truetype'),
+    url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 18px 0;
+}
+.container{
+    max-width: 940px;
+    margin: auto;
+}
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+#navbar{
+    list-style: none;
+    display: flex;
+}
+header nav li{
+    margin-left:34px;
+}
+header nav li a{
+    font-family: 'montserratregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #404040;
+    text-decoration: none;
+    display: inline-block;
+}
+header nav li a:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+footer{
+    background-color: #000000;
+    padding: 69px 0 75px;
+}
+.container_footer{
+    max-width: 564px;
+    margin: auto;
+    text-align: center;
+}
+footer form div{
+    max-width: 564px;
+}
+footer form input{
+    width: 100%; padding: 18px 0 17px 31px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.18);
+    border: none;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px; color: #FFFFFF;
+}
+.color_fill_email{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+footer form textarea{
+    max-width: 564px; width: 100%; padding: 17px 0 88px 31px;
+    resize: none;
+    box-sizing: border-box; border: none;
+    background-color:rgba(255, 255, 255, 0.2);
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px; color: #FFFFFF;
+}
+footer form button{
+    padding: 16px 60px; background-color: #000000;
+    border: 1px solid #7EC4BD;
+    margin-top: 22px;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #8BCAC3;
+}
+.container_link_footer{
+    padding-top: 37px;
+}
+.container_p{
+    padding-top: 14px;
+}
+.item_p{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.4);
+}
+::-webkit-input-placeholder {  font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px; color: #FFFFFF; }
+::-moz-placeholder          {  font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px; color: #FFFFFF; }
+:-ms-input-placeholder      {  font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px; color: #FFFFFF; }
+
+footer a:hover{
+    display: inline-block;
+    transform: scale(1.5);
+    transition: 1s;
+}
+
