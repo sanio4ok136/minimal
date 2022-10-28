@@ -23,7 +23,7 @@ header{
 .d_flex{
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 #navbar{
     list-style: none;
@@ -33,7 +33,7 @@ header nav li{
     margin-left:34px;
 }
 header nav li a{
-    font-family: 'montserratregular';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -109,17 +109,17 @@ footer form button{
     line-height: 22px;
     color: rgba(255, 255, 255, 0.4);
 }
-::-webkit-input-placeholder {  font-family: 'Vollkorn';
+::-webkit-input-placeholder {  font-family: 'Vollkorn', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 17px;
     line-height: 22px; color: #FFFFFF; }
-::-moz-placeholder          {  font-family: 'Vollkorn';
+::-moz-placeholder          {  font-family: 'Vollkorn', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 17px;
     line-height: 22px; color: #FFFFFF; }
-:-ms-input-placeholder      {  font-family: 'Vollkorn';
+:-ms-input-placeholder      {  font-family: 'Vollkorn', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 17px;
@@ -129,4 +129,161 @@ footer a:hover{
     display: inline-block;
     transform: scale(1.5);
     transition: 1s;
+}
+.main_banner{
+    min-height: 391px;
+    background-image: url("../images/IMAGE.jpg");
+    background-size: cover;
+    display: flex;
+}
+.main_banner h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase; color: #FFFFFF;
+}
+.main_banner p{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center; color: rgba(255, 255, 255, 0.81);
+}
+.main_banner h1:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+.main_banner_description{
+    background-color: #FEFEC9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.main_banner_description p{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center; color: #47474F;
+    margin-bottom: 39px;
+}
+.main_banner_description a{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center; color: #47474F;
+    display: inline-block;
+    padding: 13px 34px 20px;
+    border: solid 1px #47474F;
+    border-bottom: solid 2px #47474F;
+    text-decoration: none;
+}
+.brands{
+    padding-top: 79px;
+    padding-bottom: 74px;
+    text-align: center;
+}
+.brands h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;color: #333333;
+}
+.brands h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+.brands h4{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase; color: #333333;
+    padding-top: 38px;
+    padding-bottom: 20px;
+}
+.brands p{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+}
+.projects{
+    background-color: #F5F5F5;
+    padding-top: 79px;
+    padding-bottom: 89px;
+    text-align: center;
+}
+.projects article{
+    background-color: #FFFFFF;
+}
+.projects h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+.projects h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+.projects h4{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    padding-top: 19px;
+    padding-bottom: 4px;
+}
+.projects h5{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 21px;
 }
