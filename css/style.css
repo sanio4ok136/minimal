@@ -24,7 +24,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 #navbar{
     list-style: none;
@@ -197,9 +196,6 @@ footer a:hover{
     padding-bottom: 74px;
     text-align: center;
 }
-.brands article{
-    width: 300px;
-}
 .brands h2{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -248,8 +244,6 @@ footer a:hover{
 }
 .projects article{
     background-color: #FFFFFF;
-    width: 300px;
-    margin-bottom: 20px;
 }
 .projects h2{
     font-family: 'Montserrat', sans-serif;
@@ -283,7 +277,7 @@ footer a:hover{
     padding-top: 19px;
     padding-bottom: 4px;
 }
-.projects h5 {
+.projects h5{
     font-family: 'Vollkorn', serif;
     font-style: normal;
     font-weight: 400;
