@@ -198,7 +198,7 @@ footer a:hover{
     text-align: center;
 }
 .brands article{
-    width: 300px;
+    max-width: 300px;
 }
 .brands h2{
     font-family: 'Montserrat', sans-serif;
@@ -248,7 +248,7 @@ footer a:hover{
 }
 .projects article{
     background-color: #FFFFFF;
-    width: 300px;
+    max-width: 300px;
     margin-bottom: 20px;
 }
 .projects h2{
