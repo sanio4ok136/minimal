@@ -293,3 +293,22 @@ footer a:hover{
     color: #333333;
     padding-bottom: 21px;
 }
+.owl-item{
+    text-align: center;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    left: 0;
+    top: 25%;
+    background-color: #333333;
+    width: 20px;
+    height: 20px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: 0;
+    top: 25%;
+    background-color: #333333;
+    width: 20px;
+    height: 20px;
+}
